@@ -99,34 +99,16 @@ func printScript() {
 
 	sentence4 := strings.Split("\nThis is your last chance.\nAfter this there is no turning back.\nYou take the blue pill, the story ends \nyou wake up in your bed and believe whatever you want to believe.", " ")
 	printSentence(sentence4, "0;47;34m")
-	// for _, wrd := range sentence4 {
-	// 	fmt.Print("\x1b[0;47;34m")
-	// 	fmt.Print(wrd + " ")
-	// 	fmt.Print("\x1b[0m")
-	// 	time.Sleep(100 * time.Millisecond)
-	// }
 
 	separate()
 
 	sentence5 := strings.Split("\nYou take the red pill, you stay in Wonderland\nand I show you how deep the rabbit hole goes.", " ")
 	printSentence(sentence5, "0;47;31m")
-	// for _, wrd := range sentence5 {
-	// 	fmt.Print("\x1b[0;47;31m")
-	// 	fmt.Print(wrd + " ")
-	// 	fmt.Print("\x1b[0m")
-	// 	time.Sleep(100 * time.Millisecond)
-	// }
 
 	separate()
 
 	sentence6 := strings.Split("Remember, all I’m offering is the truth, nothing more", " ")
 	printSentence(sentence6, "2;30;33m")
-	// for _, wrd := range sentence6 {
-	// 	fmt.Print("\x1b[2;30;33m")
-	// 	fmt.Print(wrd + " ")
-	// 	fmt.Print("\x1b[0m")
-	// 	time.Sleep(100 * time.Millisecond)
-	// }
 
 	separate()
 
